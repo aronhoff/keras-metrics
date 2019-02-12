@@ -1,4 +1,3 @@
-import keras_metrics
 import os
 import setuptools
 
@@ -12,7 +11,7 @@ with open(os.path.join(here, "README.md"), encoding="utf-8") as md:
 
 setuptools.setup(
     name="keras-metrics",
-    version=keras_metrics.__version__,
+    version="0.0.7",
 
     long_description=long_description,
     long_description_content_type="text/markdown",
